@@ -55,7 +55,7 @@ public class InvoiceApp {
               + "Discount amount:  " + currency.format(discountAmount) + "\n"
               + "Total:            " + currency.format(total) + "\n");
 
-            // see if the user wants to continue
+            // see if the user wants to continue modification
             System.out.print("Continue? (y/n): ");
             choice = sc.next();
             System.out.println();
